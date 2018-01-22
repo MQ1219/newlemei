@@ -1,0 +1,18 @@
+.content{
+   width: 100%;
+}
+.content .con{
+    width: 1160px;
+    margin: 0 auto;
+    padding:50px 15px;
+}
+.content h1{
+    text-align: center;
+    margin:10px 0 50px;
+    font-weight: normal;
+}
+.content p{
+    margin:10px 0;
+    font-size: 14px;
+    line-height: 2;
+}

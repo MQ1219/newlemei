@@ -1,0 +1,56 @@
+.goods .cons{
+    width: 1160px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.goods h1{
+    font-weight: normal;
+    text-align: center;
+    margin:50px 0;
+}
+.goods .con{
+    overflow: hidden;
+}
+.goods .con .con1{
+    width:257px;
+    overflow: hidden;
+    margin:0 15px;
+    margin-bottom:30px;
+    float:left;
+    background: #fff;
+    border:1px solid #dcdcdc;
+}
+.goods .con1 .imgb{
+    width:100%;
+    height: 200px;
+    overflow: hidden;
+}
+.goods .imgb img{
+    width:100%;
+}
+.goods h2{
+    font-size: 32px;
+    color:#fff;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom:50px;
+}
+.goods .cont{
+    padding:15px;
+}
+.goods .cont a{
+    color:#333;
+    margin-bottom:5px;
+}
+.goods .con1:hover a{
+    color:#c5a059;
+}
+.goods .cont .time{
+    color:#999;
+    font-size: 12px;
+    margin-bottom:5px;
+}
+.goods .cont p{
+    font-size: 14px;
+    color:#666666;
+}

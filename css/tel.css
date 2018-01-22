@@ -1,0 +1,33 @@
+.goods .cons{
+    width: 1160px;
+    padding:0 15px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.goods h1{
+    font-weight: normal;
+    text-align: center;
+    margin:50px 0;
+}
+.goods .con{
+    overflow: hidden;
+}
+.goods .left{
+    width: 50%;
+   float: left;
+}
+.goods .right{
+    width: 50%;
+    float: left;
+}
+.goods .left h3{
+    margin:0;
+    margin-bottom:20px;
+    padding:0 20px;
+}
+.goods .left h4{
+    font-size: 14px;
+    font-weight: normal;
+    padding:0 20px;
+    color:#8c8c8c;
+}

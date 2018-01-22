@@ -1,0 +1,38 @@
+.cons h2{
+    font-weight: normal;
+    text-align: center;
+    margin:50px 0 15px;
+}
+.cons h4{
+    font-weight: normal;
+    text-align: center;
+    margin:15px;
+    color:#adadad;
+}
+.cons .jj{
+    background: #dfdfdf;
+    padding:10px 20px;
+    width:900px;
+    margin:0 auto;
+    line-height: 30px;
+    border-radius: 5px;
+    color:#666666;
+    margin-bottom:30px;
+}
+.cons img{
+    margin:0 auto;
+    width: 650px;
+    height: 400px;
+    margin-bottom:30px;
+}
+.bz{
+    width:850px;
+    margin:0 auto;
+    line-height: 30px;
+    color:#666666;
+    margin-bottom:50px;
+}
+.bz h4{
+    font-weight: normal;
+    line-height: 50px;
+}

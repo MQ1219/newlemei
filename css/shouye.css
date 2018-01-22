@@ -1,0 +1,306 @@
+.banner{
+	width: 100%;
+	height: 359px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.banner img{
+	width: 100%;
+	height: 359px;	
+}
+
+.banner a{
+	width: 100%;
+	height: 359px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+	opacity: 0;
+}
+.banner .banners-active{
+	opacity: 1;
+}
+.banner ul{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 10;	
+}
+
+.banner ul li{
+	width: 13px;
+	height: 13px;
+	margin-left: 8px;
+	background-color: #DDDDDD;
+	float: left;
+}
+.banner ul .dian-1{
+	background-color: #555;
+}
+.banner .iconfont{
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-size: 40px;
+	color: #77726E;
+	line-height: 50px;
+	text-align: center;
+	display: none;
+}
+.banner:hover .iconfont{
+	display: block;
+}
+.banner .yi{
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	z-index: 10;
+}
+.banner .er{
+	position: absolute;
+	right: 200px;
+	top: 150px;
+	z-index: 10;
+}
+.banner .iconfont:hover{
+	background-color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+}
+.fenlei{
+	width: 100%;
+	display: flex;
+	padding: 50px ;
+	text-align: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.fenlei .lei{
+	width: 180px;
+	height: 170px;
+	padding: 20px 0;
+	border: .5px solid #ccc;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+.fenlei .lei:hover{
+	transform: translateY(-10px);
+	border-color: #c5a059;
+}
+.fenlei .lei span{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.fenlei .lei .yi{
+	font-size: 32px;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #c5a059;
+	line-height: 65px;
+	margin-bottom: 20px;
+	color: #fff;
+
+}
+.fenlei .lei .er{
+	font-size: 16px;
+	color: #000;
+}
+.tj{
+	width: 100%;
+	padding:50px 0;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+.tj .nei{
+	width:1140px;
+	padding:0 15px;
+	margin:0 auto;
+}
+.tj .nei h2{
+	font-size: 32px;
+	color:#000;
+	text-align: center;
+	font-weight: 300;
+}
+.tj .con{
+	width:1140px;
+	margin-top:40px;
+	overflow: hidden;
+}
+.tj .con .con1{
+	width:255px;
+	margin:0 15px;
+	float:left;
+}
+.tj .con .tu{
+	width:255px;
+	height: 255px;
+	overflow: hidden;
+}
+.tj .con .con1:hover img{
+	width: 270px;
+	transition: all 1s;
+}
+
+.tj .con .con1 h4{
+	text-align: center;
+	padding:15px 0;
+	font-weight: 400;
+}
+.tj .con .con1:hover h4{
+	color:#c5a059;
+}
+.tj .con .con1 img{
+	width: 255px;
+}
+.more{
+	width: 140px;
+	height: 40px;
+	border:2px solid #c5a059;
+	margin:0 auto;
+	margin-top:50px;
+	text-align: center;
+	line-height: 40px;
+	color:#c5a059;
+}
+.gylm{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 50px 0;
+}
+.gylm img{
+	width: 290px;
+	float: left;
+	margin: 0 100px;
+}
+.gylm .lm{
+	width: 1200px;
+	height: 217px;
+	margin: 0 auto;
+}
+.gylm .lm p{
+	float: left;
+	font-size: 18px;
+	display: block;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 5px;
+}
+.gylm .lm .yi{
+	margin-top: 30px;
+}
+.gylm h2{
+	font-size: 32px;
+	color:#000;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom:50px;
+}
+.news{
+	padding:50px 0;
+	background-image: url("../img/bj.jpg");
+	overflow: hidden;
+}
+.news .con{
+	width: 1140px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.news .con .con1{
+	width:257px;
+	overflow: hidden;
+	margin:0 13px;
+	float:left;
+	background: #fff;
+}
+.news .con1 .imgb{
+	width:100%;
+	height: 200px;
+	overflow: hidden;
+}
+.news .imgb img{
+	width:100%;
+}
+.news h2{
+	font-size: 32px;
+	color:#fff;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom:50px;
+}
+.news .cont{
+	padding:15px;
+}
+.news .cont a{
+	color:#333;
+	margin-bottom:5px;
+}
+.news .con1:hover a{
+	color:#c5a059;
+}
+.news .cont .time{
+	color:#999;
+	font-size: 12px;
+	margin-bottom:5px;
+}
+.news .cont p{
+	font-size: 14px;
+	color:#666666;
+}
+.goods .imgs{
+	width:257px;
+	height: 257px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.goods .imgs img{
+	width:257px;
+	height: 257px;
+}
+.goods .con1:hover img{
+	width: 270px;
+	height: 270px;
+	transition: all 1s;
+}
+.goods h2{
+	font-size: 32px;
+	color:#333;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom:50px;
+}
+.goods{
+	padding:50px 0;
+	overflow: hidden;
+}
+.goods .con{
+	width: 1140px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.goods .con .con1{
+	width:257px;
+	overflow: hidden;
+	margin:0 13px;
+	float:left;
+	margin-bottom:20px;
+
+}
+.goods .cont{
+	margin-top:10px;
+	font-size: 14px;
+}
+.goods .con1 a{
+	text-align: center;
+}
+.goods .con1:hover a{
+	color:#c5a059;
+
+}
+
+
+

@@ -1,0 +1,87 @@
+.cons .meiqi{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    padding: 30px;
+    margin:50px auto;
+}
+.cons .meiqi .shang{
+    width: 830px;
+    height: 360px;
+}
+.cons .meiqi .shang img{
+    width: 360px;
+    float: left;
+}
+.cons .meiqi .shang .you{
+    width: 414px;
+    height: auto;
+    margin-left: 50px;
+    float: left;
+}
+.cons .meiqi .shang .you .yi{
+    width: 414px;
+    height: 36px;
+    font-size: 20px;
+    color: #FF951B;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.cons .meiqi .shang .you .er{
+    width: 414px;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    padding: 20px 0;
+    border-top: 0.6px solid #ccc;
+}
+.cons .meiqi .shang .you .san{
+    width: 414px;
+    height: auto;
+    font-size: 20px;
+    color: #8EC63F;
+    margin-top: 15px;
+}
+.cons .meiqi .center{
+    width: 813px;
+    height: 36px;
+    padding-left: 15px;
+    border-bottom: 0.6px solid #ccc;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #8EC63F;
+    font-weight: 600;
+}
+.cons .meiqi .center{
+    width: 813px;
+    height: 36px;
+    border-bottom: 0.6px solid #ccc;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #8EC63F;
+    font-weight: 600;
+}
+.cons .meiqi .xia{
+    width: 813px;
+    height: auto;
+    margin-top: 15px;
+}
+.cons .meiqi .xia span{
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.cons .meiqi .xia ul{
+    font-size: 14px;
+    color: #333;
+}
+.cons .meiqi .xia ul li{
+    margin-top: 5px;
+    line-height: 20px;
+}
+.cons .meiqi .xia .two{
+    margin-top: 30px;
+}
