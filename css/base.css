@@ -87,6 +87,10 @@ a,img{
 .footer .neibu .yi ul li a:hover{
 	color:#cc0000;
 }
+.footer .neibu .img{
+	width: 120px;
+	height: 120px;
+}
 .footer .neibu .yi img{
 	width: 120px;
 	transform: translate(70px, 40px)
